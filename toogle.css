@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+.toggle{
+    width: 65px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+}
+.circle{
+    margin: auto 0.5px;
+    height: 100%;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.main {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.heading h1 {
+    font-size: 60px;
+}
